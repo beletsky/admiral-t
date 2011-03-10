@@ -1,0 +1,28 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <title>{TITLE}</title>
+    <link rel="stylesheet" type="text/css" href="{PATH_TO_ADMIN}main.css">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <!-- Google -->
+<!--
+    <script src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript" charset="utf-8">
+        google.load("jquery", "1.3");
+        google.load("jqueryui", "1.7");
+    </script>
+-->
+        
+    <!-- jsCalendar -->
+    <script type="text/javascript" src="{PATH_TO_ROOT}js/jscalendar/calendar.js"></script>
+    <script type="text/javascript" src="{PATH_TO_ROOT}js/jscalendar/calendar-setup.js"></script>
+    <script type="text/javascript" src="{PATH_TO_ROOT}js/jscalendar/calendar-ru.js"></script>
+    <link rel="stylesheet" type="text/css" href="{PATH_TO_ROOT}js/jscalendar/calendar-win2k-cold-1.css">
+    
+    <!--<meta name="robots" content="all">-->
+</head>
+<body text=#4B4B4B bgcolor=ffffff link=0066cc alink=0066cc vlink=0066cc topmargin=0 leftmargin=0 rightmargin=0 bottommargin=0 marginwidth=0 marginheight=0>
+

@@ -1,0 +1,1 @@
+ DD_belatedPNG.fix('img, #h-slogan'); 

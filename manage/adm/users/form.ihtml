@@ -1,0 +1,7 @@
+<table border=0><form action="{THIS_PAGE}" method=post><input type=hidden name=a value="{ACTION}"><input type=hidden name=id value={ID}>
+<tr><td>Группа:</td><td><select name=form[GroupCode] size=1 class=inp>{GROUP_OPTIONS}</select></td></tr>
+<tr><td>Логин:</td><td><input name=form[UserLogin] value="{LOGIN}" class=inp></td></tr>
+<tr><td>Пароль:</td><td><input name=form[UserPwd] value="{PWD}" class=inp></td></tr>
+<tr><td>Удален:</td><td><input type=checkbox name=form[UserDeleted]{DELETED_CHECKED}></td></tr>
+<tr><td>&nbsp;</td><td><input type=submit value="{BTN_CAPTION}" class=btn></td></tr>
+</form></table>

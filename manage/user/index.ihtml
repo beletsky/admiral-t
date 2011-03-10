@@ -1,0 +1,2 @@
+<h1>Пользователи</h1>
+<!-- BEGIN item --><p><a href="{PATH_TO_ROOT}{FOLDER}"><b>{NAME}</b></a></p><!-- END item -->

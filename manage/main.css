@@ -1,0 +1,131 @@
+.error{
+color:red;
+font-weight:bold;
+font-family:Arial, sans-serif;}
+body,td{
+color:#4B4B4B;
+font-family:Verdana, Arial, sans-serif;
+font-size:8pt;}
+a{
+color:#0000ff;
+text-decoration:none;}
+a:hover{text-decoration:underline;}
+.inp{
+font-family:Verdana, Arial, sans-serif;
+font-size:8pt;}
+.disabled{
+background-color:#d3d3d3;
+font-family:Verdana, Arial, sans-serif;
+font-size:8pt;}
+.btn{
+/*border:1px solid Black;*/
+font-family:Verdana, Arial, sans-serif;
+background:#CCCCCC;
+font-weight:bold;
+font-size:8pt;}
+h1{
+font-size:14px;
+font-weight:bold;
+color:#000000;}
+h2{
+font-size:12px;
+font-weight:bold;
+color:#000000;}
+h3{
+font-size:10px;
+font-weight:bold;
+color:#000000;}
+.outer2{background-color:#a0a0a0;}
+.outer2 th, th.outer2{background-color:#CCCCcc;font-size:8pt;border:outset 1px;}
+.outer2 th .nonselected{color:#4B4B4B;}
+.outer2 th .selected{color:#646464;}
+.outer2 td{background-color:#ffffff;}
+.outer2 td.deleted,.outer2 td.deleted a{
+background-color:#999999;
+color:white;}
+.outer2 td.suspended{background-color:#eaeaea;}
+table.menu th,table.menu a{
+background-color:#4b4b4b;
+color:#ffffff;
+font-size:8pt;}
+table.menu th.selected a{color:#cccccc;}
+table.menu2 th,table.menu2 a{
+background-color:#777777;
+color:#ffffff;
+font-size:8pt;}
+table.menu2 th.selected a{color:#cccccc;}
+table.menu3 th,table.menu3 a{
+background-color:#AAAAAA;
+color:#ffffff;
+font-size:8pt;}
+table.menu3 th.selected a{color:lime;}
+.req{color:red;}
+.nonreq{color:white;}
+.numberbold{font-weight:bold;}
+
+.menu
+{
+    list-style-tyle: none;
+    list-style-image: none;
+    color: #FFF;
+    font-size: 8pt;
+    font-family:Verdana, Arial, sans-serif;
+    font-weight:bold;
+    text-align: left;
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    line-height: 150%;
+}
+
+.menu li
+{
+    display: inline;
+    padding: 0 5px 5px 0;
+}
+
+.menu li a
+{
+    color: #FFF;
+}
+
+.menu li.selected a
+{
+    color: #CCC;
+}
+
+.menu1
+{
+    background-color: #4b4b4b;
+}
+
+.menu2
+{
+    background-color: #777;
+}
+
+.menu3
+{
+    background-color: #AAA;
+}
+
+#global_host_select_form
+{
+    margin: 0;
+    padding: 5px;
+    font-size: 8pt;
+    background-color: #ffc96c;
+}
+
+/* Sub table classes */
+.admin-sub-table {
+    width: 100%;
+}
+
+.admin-sub-table td {
+    border-bottom: 1px solid #777777;
+    height: 25px;
+}
+
+.admin-sub-table td.highlighted {
+    background-color: yellow;
+}

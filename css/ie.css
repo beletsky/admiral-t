@@ -1,0 +1,7 @@
+html #menu li { _width:10px;}
+
+html #menu li a { display:block; float:left; _padding:0 18px;}
+	html #menu li a b { display:block; float:left;  _width:expression(parentNode.clientWidth > 140? "122px": "auto" ); margin-top: expression((parentNode.offsetHeight - this.offsetHeight)<0 ? "0" : (parentNode.offsetHeight - this.offsetHeight)/2 + "px");}
+
+*html .item-box { margin:0 7px 15px 7px; zoom:1;}
+

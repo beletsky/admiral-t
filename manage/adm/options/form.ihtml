@@ -1,0 +1,15 @@
+<table border=0><form action="{THIS_PAGE}" method=post>
+<input type=hidden name=a value="{ACTION}"><input type=hidden name=id value={ID}>
+<tr><td>Код в системе:</td><td><input name=form[OptionCode] value="{OPTION_CODE}" class=inp style="width:300px"></td></tr>
+<tr><td>Название:</td><td><input name=form[OptionName] value="{OPTION_NAME}" class=inp style="width:300px"></td></tr>
+<tr><td colspan=2><b>Значения:</b><br><small>(Если это простая константа, введите только одно значение)</small><br>
+<table border=0 cellspacing=0 cellpadding=0><tr><td class="outer2"><table border=0 cellspacing=1 cellpadding=2>
+<tr><th>Код</th><th>Значение</th><th>Порядок вывода</th></tr>
+<!-- BEGIN value -->
+<tr><td><input name=form[values][{I}][OptionSubCode] value="{OPTION_CODE}" class=inp></td>
+<td><input name=form[values][{I}][OptionValue] value="{OPTION_VALUE}" class=inp style="width:300px"></td>
+<td><input name=form[values][{I}][OptionOrder] value="{OPTION_ORDER}" class=inp></td></tr>
+<!-- END value -->
+</table></td></tr></table></td></tr>
+<tr><td>&nbsp;</td><td><input type=submit value="{BTN_CAPTION}" class=btn></td></tr>
+</form></table>

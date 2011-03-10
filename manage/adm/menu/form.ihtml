@@ -1,0 +1,9 @@
+<table border=0><form action="{THIS_PAGE}" method=post>
+<input type=hidden name=a value="{ACTION}"><input type=hidden name=id value={ID}><input type=hidden name=pid value={PID}>
+<tr><td>Код:</td><td><input name=form[MenuCode] value="{CODE}" class=inp style="width:300px"></td></tr>
+<tr><td>Название:</td><td><input name=form[MenuName] value="{NAME}" class=inp style="width:300px"></td></tr>
+<tr><td>Порядок вывода:</td><td><input name=form[MenuOrder] value="{ORDER}" class=inp style="width:300px"></td></tr>
+<tr><td>Страница:</td><td><select class=inp name=form[ID_Page]>{PAGES_OPTIONS}</select></td></tr>
+<tr><td>Родительский элемент:</td><td><select class=inp name=form[ID_Parent]>{PARENT_OPTIONS}</select></td></tr>
+<tr><td>&nbsp;</td><td><input type=submit value="{BTN_CAPTION}" class=btn></td></tr>
+</form></table>

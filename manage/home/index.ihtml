@@ -1,0 +1,6 @@
+<h1>Навигация</h1>
+<blockquote>
+<!-- BEGIN item --><p><a href="{PATH_TO_ROOT}{FOLDER}"><b>{NAME}</b></a><!-- END item -->
+<!-- BEGIN subitem --><br>&nbsp;&nbsp;&nbsp;&nbsp;<a href="{PATH_TO_ROOT}{FOLDER}">{NAME}</a><!-- END subitem -->
+<!-- BEGIN subsubitem --><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{PATH_TO_ROOT}{FOLDER}">{NAME}</a><!-- END subsubitem -->
+</blockquote>

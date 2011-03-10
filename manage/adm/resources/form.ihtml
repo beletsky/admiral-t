@@ -1,0 +1,5 @@
+<table border=0><form action="{THIS_PAGE}" method=post><input type=hidden name=a value="{ACTION}"><input type=hidden name=id value={ID}>
+<tr><td>Код:</td><td><input name=form[ResourceCode] value="{CODE}" class=inp style="width:300px"></td></tr>
+<tr><td>Название:</td><td><input name=form[ResourceName] value="{NAME}" class=inp style="width:300px"></td></tr>
+<tr><td>&nbsp;</td><td><input type=submit value="{BTN_CAPTION}" class=btn></td></tr>
+</form></table>

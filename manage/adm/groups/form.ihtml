@@ -1,0 +1,16 @@
+<table border=0><form action="{THIS_PAGE}" method=post>
+<input type=hidden name=a value="{ACTION}"><input type=hidden name=id value={ID}>
+<tr><td>Код:</td><td><input name=form[GroupCode] value="{CODE}" class=inp style="width:300px"></td></tr>
+<tr><td>Название:</td><td><input name=form[GroupName] value="{NAME}" class=inp style="width:300px"></td></tr>
+<tr><td>Доступ к Back End:</td><td><input type=checkbox name=form[GroupAccessBackEnd]{BACKEND}></td></tr>
+<tr><td>Доступ к Front End:</td><td><input type=checkbox name=form[GroupAccessFrontEnd]{FRONTEND}></td></tr>
+<tr><td colspan=2><b>Доступные ресурсы:</b><br>
+<table border=0 cellspacing=0 cellpadding=0><tr><td class="outer2"><table border=0 cellspacing=1 cellpadding=2>
+<tr><th>&nbsp;</th><th>Ресурс</th></tr>
+<!-- BEGIN resource -->
+<tr><td><input type=checkbox name=form[resources][{ID_RESOURCE}]{USED}></td>
+<td><a href="../resources/?id={ID_RESOURCE}">{RESOURCE_NAME}</a></td></tr>
+<!-- END resource -->
+</table></td></tr></table></td></tr>
+<tr><td>&nbsp;</td><td><input type=submit value="{BTN_CAPTION}" class=btn></td></tr>
+</form></table>
